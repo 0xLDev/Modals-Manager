@@ -1,4 +1,4 @@
-import React, { useCallback, useReducer, PropsWithChildren } from 'react';
+import React, { useCallback, useReducer } from 'react';
 
 import { randomId } from './lib/randomId';
 import { Modal } from './ui/Modal';

@@ -1,0 +1,66 @@
+.ant-modal-root .ant-modal-mask {
+  background-color: var(--color-background-overlay);
+  z-index: 3000;
+}
+
+.ant-modal,
+.ant-modal-header {
+  margin-bottom: 24px !important;
+  background-color: transparent !important;
+}
+
+.ant-modal-title {
+  font-family: "Title Font", sans-serif;
+  font-weight: 500 !important;
+  font-size: var(--title-font-size, 24px) !important;
+  line-height: 28px !important;
+  color: var(--color-text-icons-basic-primary);
+}
+
+.ant-modal-wrap {
+  z-index: 3000 !important;
+}
+
+.ant-modal-body {
+  font-family: "Text Font", sans-serif;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  color: var(--color-text-icons-basic-secondary);
+  margin-bottom: 20px !important;
+}
+
+.ant-modal-content {
+  box-shadow: none !important;
+  padding: 24px !important;
+  border-radius: 24px !important;
+  background-color: var(--color-surface-white) !important;
+}
+
+.ant-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  margin-top: 0 !important;
+}
+
+.ant-modal {
+  .ant-modal-close {
+    width: 44px;
+    height: 44px;
+    top: 16px;
+
+    & > span {
+      font-size: 14px;
+    }
+
+    color: var(--color-text-icons-basic-secondary);
+    &:hover {
+      color: var(--color-text-icons-basic-primary);
+      background: transparent;
+    }
+    &:focus {
+      background: transparent;
+    }
+  }
+}
